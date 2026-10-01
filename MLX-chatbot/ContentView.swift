@@ -36,7 +36,7 @@ struct ContentView: View {
 //----Section 2: suggested questions-----------//
     
     private let suggestedQuestions = [
-        " ? ",
+        " whats your name ",
         " ? ",
         //ADD YOUR QUESTIONS BELOW (comma after each one)
    ]
@@ -96,11 +96,11 @@ struct ContentView: View {
 //----Section 1: Title/Subtitle-----------//
 
                 // ★ CHANGE THE TEXT BELOW TO YOUR OWN WELCOME MESSAGE:
-               Text( " ? " )
+               Text( " welcome to AAFIFA chatbot" )
                     .font(.largeTitle.bold())
 
                 // ★ CHANGE THIS SUBTITLE TO DESCRIBE YOUR APP:
-                Text(" ? ")
+                Text(" soccer ")
                     .font(.title3)
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
